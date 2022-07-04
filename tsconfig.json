@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "outDir": "built",
+    "target": "ES5",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "preserveConstEnums": true,
+    "types": [
+      "node",
+      "jest",
+      "web-bluetooth"
+    ],
+    "esModuleInterop": true,
+    "lib": [
+      "es6",
+      "es5",
+      "dom",
+      "es2015.core",
+      "es2015.promise",
+      "es2015.collection",
+      "es2015.iterable",
+      "esnext.asynciterable"
+    ],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "removeComments": false,
+    "declaration": true,
+    "noEmitOnError": true,
+    "module": "esnext",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "./src/**/*",
+    "./src/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "./built/**/*"
+  ],
+  "lib": [
+    "ES2017",
+    "ES2015.core"
+  ]
+}
